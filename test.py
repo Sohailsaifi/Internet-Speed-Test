@@ -19,4 +19,4 @@ elif option == 3:
     print(s.results.ping)
 
 else :
-    print("Invalid Option")
+    print("Invalid Option!!...Please try again.")
