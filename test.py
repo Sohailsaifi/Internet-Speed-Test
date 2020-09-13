@@ -2,10 +2,11 @@ import speedtest
 
 s = speedtest.Speedtest()
 
-option = int(input('''What do you want to know
-1-upload speed
-2- download speed
-3- ping \n'''))
+option = int(input('''What do you want to know :
+
+1 - upload speed
+2 - download speed
+3 - ping \n'''))
 
 if option == 1:
     print(s.upload())
